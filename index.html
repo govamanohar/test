@@ -1,1 +1,177 @@
 
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> Partial Class frmTblCode
+#Region "Windows Form Designer generated code "
+	<System.Diagnostics.DebuggerNonUserCode()> Public Sub New()
+		MyBase.New()
+		'This call is required by the Windows Form Designer.
+		InitializeComponent()
+	End Sub
+	'Form overrides dispose to clean up the component list.
+	<System.Diagnostics.DebuggerNonUserCode()> Protected Overloads Overrides Sub Dispose(ByVal Disposing As Boolean)
+		If Disposing Then
+			If Not components Is Nothing Then
+				components.Dispose()
+			End If
+		End If
+		MyBase.Dispose(Disposing)
+	End Sub
+	'Required by the Windows Form Designer
+	Private components As System.ComponentModel.IContainer
+	Public ToolTip1 As System.Windows.Forms.ToolTip
+    Public WithEvents sprCodeTable As System.Windows.Forms.DataGridView
+	Public WithEvents cmdClose As System.Windows.Forms.Button
+	Public WithEvents cboType As System.Windows.Forms.ComboBox
+	Public WithEvents _cmdOptions_0 As System.Windows.Forms.Button
+	Public WithEvents _cmdOptions_1 As System.Windows.Forms.Button
+	Public WithEvents lblHidden As System.Windows.Forms.Label
+	Public WithEvents frmFrame As System.Windows.Forms.GroupBox
+	Public WithEvents cmdOptions As Microsoft.VisualBasic.Compatibility.VB6.ButtonArray
+	'NOTE: The following procedure is required by the Windows Form Designer
+	'It can be modified using the Windows Form Designer.
+	'Do not modify it using the code editor.
+	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.frmFrame = New System.Windows.Forms.GroupBox()
+        Me.sprCodeTable = New System.Windows.Forms.DataGridView()
+        Me.cmdClose = New System.Windows.Forms.Button()
+        Me.cboType = New System.Windows.Forms.ComboBox()
+        Me._cmdOptions_0 = New System.Windows.Forms.Button()
+        Me._cmdOptions_1 = New System.Windows.Forms.Button()
+        Me.lblHidden = New System.Windows.Forms.Label()
+        Me.cmdOptions = New Microsoft.VisualBasic.Compatibility.VB6.ButtonArray(Me.components)
+        Me.frmFrame.SuspendLayout()
+        CType(Me.sprCodeTable, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmdOptions, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'frmFrame
+        '
+        Me.frmFrame.BackColor = System.Drawing.SystemColors.Control
+        Me.frmFrame.Controls.Add(Me.sprCodeTable)
+        Me.frmFrame.Controls.Add(Me.cmdClose)
+        Me.frmFrame.Controls.Add(Me.cboType)
+        Me.frmFrame.Controls.Add(Me._cmdOptions_0)
+        Me.frmFrame.Controls.Add(Me._cmdOptions_1)
+        Me.frmFrame.Controls.Add(Me.lblHidden)
+        Me.frmFrame.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.frmFrame.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.frmFrame.Location = New System.Drawing.Point(4, 5)
+        Me.frmFrame.Name = "frmFrame"
+        Me.frmFrame.Padding = New System.Windows.Forms.Padding(0)
+        Me.frmFrame.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.frmFrame.Size = New System.Drawing.Size(300, 293)
+        Me.frmFrame.TabIndex = 5
+        Me.frmFrame.TabStop = False
+        '
+        'sprCodeTable
+        '
+        Me.sprCodeTable.AllowUserToAddRows = False
+        Me.sprCodeTable.Location = New System.Drawing.Point(12, 40)
+        Me.sprCodeTable.Name = "sprCodeTable"
+        Me.sprCodeTable.RowHeadersVisible = False
+        Me.sprCodeTable.Size = New System.Drawing.Size(194, 238)
+        Me.sprCodeTable.TabIndex = 1
+        '
+        'cmdClose
+        '
+        Me.cmdClose.BackColor = System.Drawing.SystemColors.Control
+        Me.cmdClose.Cursor = System.Windows.Forms.Cursors.Default
+        Me.cmdClose.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdClose.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.cmdClose.Location = New System.Drawing.Point(234, 18)
+        Me.cmdClose.Name = "cmdClose"
+        Me.cmdClose.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmdClose.Size = New System.Drawing.Size(57, 22)
+        Me.cmdClose.TabIndex = 2
+        Me.cmdClose.Text = "&Close"
+        Me.cmdClose.UseVisualStyleBackColor = False
+        '
+        'cboType
+        '
+        Me.cboType.BackColor = System.Drawing.SystemColors.Window
+        Me.cboType.Cursor = System.Windows.Forms.Cursors.Default
+        Me.cboType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboType.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboType.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.cboType.Location = New System.Drawing.Point(12, 16)
+        Me.cboType.Name = "cboType"
+        Me.cboType.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cboType.Size = New System.Drawing.Size(194, 22)
+        Me.cboType.TabIndex = 0
+        Me.cboType.Tag = "-1"
+        '
+        '_cmdOptions_0
+        '
+        Me._cmdOptions_0.BackColor = System.Drawing.SystemColors.Control
+        Me._cmdOptions_0.Cursor = System.Windows.Forms.Cursors.Default
+        Me._cmdOptions_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me._cmdOptions_0.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.cmdOptions.SetIndex(Me._cmdOptions_0, CType(0, Short))
+        Me._cmdOptions_0.Location = New System.Drawing.Point(233, 46)
+        Me._cmdOptions_0.Name = "_cmdOptions_0"
+        Me._cmdOptions_0.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me._cmdOptions_0.Size = New System.Drawing.Size(57, 22)
+        Me._cmdOptions_0.TabIndex = 3
+        Me._cmdOptions_0.Text = "&New"
+        Me._cmdOptions_0.UseVisualStyleBackColor = False
+        '
+        '_cmdOptions_1
+        '
+        Me._cmdOptions_1.BackColor = System.Drawing.SystemColors.Control
+        Me._cmdOptions_1.Cursor = System.Windows.Forms.Cursors.Default
+        Me._cmdOptions_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me._cmdOptions_1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.cmdOptions.SetIndex(Me._cmdOptions_1, CType(1, Short))
+        Me._cmdOptions_1.Location = New System.Drawing.Point(234, 74)
+        Me._cmdOptions_1.Name = "_cmdOptions_1"
+        Me._cmdOptions_1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me._cmdOptions_1.Size = New System.Drawing.Size(57, 22)
+        Me._cmdOptions_1.TabIndex = 4
+        Me._cmdOptions_1.Text = "&Delete"
+        Me._cmdOptions_1.UseVisualStyleBackColor = False
+        '
+        'lblHidden
+        '
+        Me.lblHidden.BackColor = System.Drawing.SystemColors.Control
+        Me.lblHidden.Cursor = System.Windows.Forms.Cursors.Default
+        Me.lblHidden.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHidden.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.lblHidden.Location = New System.Drawing.Point(231, 108)
+        Me.lblHidden.Name = "lblHidden"
+        Me.lblHidden.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.lblHidden.Size = New System.Drawing.Size(61, 20)
+        Me.lblHidden.TabIndex = 6
+        Me.lblHidden.Text = "lblHidden"
+        Me.lblHidden.Visible = False
+        '
+        'cmdOptions
+        '
+        '
+        'frmTblCode
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(319, 310)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.frmFrame)
+        Me.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.KeyPreview = True
+        Me.Location = New System.Drawing.Point(182, 139)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "frmTblCode"
+        Me.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
+        Me.Text = "Note Code Maintenance"
+        Me.frmFrame.ResumeLayout(False)
+        CType(Me.sprCodeTable, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmdOptions, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
+    End Sub
+#End Region 
+End Class
